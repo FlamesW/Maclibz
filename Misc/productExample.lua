@@ -3,7 +3,7 @@
   Simply a showcase, this contains no game altering code besides the interface itself.
 ]]
 
-local MacLib = require(script.Parent.MacLib:Clone())
+local MacLib = loadstring(game:HttpGet("https://github.com/biggaboy212/Maclib/releases/latest/download/maclib.txt"))()
 
 local Window = MacLib:Window({
 	Title = "Karpiware 6.1.0",

@@ -1,4 +1,4 @@
-local MacLib = loadstring(game:HttpGet("https://github.com/biggaboy212/Maclib/releases/latest/download/maclib.txt"))()
+local MacLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Maclibz/main/Src.lua"))()
 
 local Window = MacLib:Window({
 	Title = "Maclib Demo",
